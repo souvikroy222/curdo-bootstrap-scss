@@ -1,8 +1,5 @@
 .main__first-section {
-    @include media-breakpoint-down(xl){
-        align-items: center;
-        text-align: center;
-    }
+   
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,9 +39,7 @@
 
 }
 
-.main__second-section{
-  display: flex;
-  flex-direction: column;
+.main__second-section{  
   align-self: flex-end;
 }
 .main-logos {
