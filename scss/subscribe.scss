@@ -1,0 +1,30 @@
+.subscribe_container {
+  justify-content: space-between;
+}
+.search_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: center;
+}
+
+.subscribe__text {
+  font-size: 3rem;
+}
+
+.subscribe_inputbox {
+  width: 100%;
+  padding-left: 2rem;
+}
+
+.subscribe_inputbox:focus {
+  padding-left: 2rem;
+  outline: none;
+}
+
+.subscribe_button {
+  color: white;
+  background-color: black;
+  padding: 1rem 3rem;
+  border: none;
+}

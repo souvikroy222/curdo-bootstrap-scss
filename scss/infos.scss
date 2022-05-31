@@ -1,0 +1,89 @@
+.infos__background-section {
+  @include media-breakpoint-down(lg) {
+    height: 2050px;
+  }
+  @include media-breakpoint-down(md) {
+    height: 3100px;
+  }
+  height: 1350px;
+  background-image: url("../src/images/a2a2d7d120f58231afe456a6c690d573_02.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  overflow: hidden;
+  padding-left: 0.75rem;
+}
+
+.get_to-know-btn {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 0.7rem 1.2rem;
+  display: inline-block;
+}
+
+p {
+  margin-bottom: inherit;
+}
+
+.infos__section-subtitle p {
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+.container-fluid {
+  padding: 0;
+}
+
+.infos__right-section {
+  @include media-breakpoint-down(lg) {
+    flex-basis: 100%;
+  }
+  padding-top: 4rem;
+  flex-basis: 40%;
+}
+
+.infos__left-section {
+  @include media-breakpoint-down(lg) {
+    flex-basis: 100%;
+  }
+  padding-top: 4rem;
+  flex-basis: 60%;
+}
+
+.extra__infos__left-section,
+.extra__infos__right-section {
+  margin-top: 10rem;
+}
+
+.extra__infos__right-section {
+  padding-left: calc(30% - 1rem);
+}
+.point_img {
+  width: 7rem;
+}
+
+.features__section {
+  padding-bottom: 5rem;
+}
+.first__card {
+  margin-top: 6rem;
+}
+.point__headline-title {
+  margin-top: 2rem;
+}
+
+.point__description {
+  margin-top: 1.7rem;
+  line-height: 2.5;
+  color: rgb(146, 146, 146);
+}
+.infos__section-title {
+  margin-bottom: 2.5rem;
+}
+
+.infos-40m,
+.infos-12 {
+  margin-bottom: 1rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+
+

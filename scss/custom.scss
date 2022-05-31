@@ -1,0 +1,32 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+@import "./navbar";
+@import "./main";
+@import "./infos";
+@import "./featured";
+@import "./testimonials";
+@import "./subscribe";
+
+
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.buttons {
+  padding: 0.7rem 1.2rem;
+  background-color: black;
+  color: #fff;
+  display: inline;
+}
+
+.section {
+  padding: 7rem 0 0 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 85%;
+}
