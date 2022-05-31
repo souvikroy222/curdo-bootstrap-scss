@@ -15,6 +15,11 @@
 }
 
 .get_to-know-btn {
+  @include media-breakpoint-down(sm){
+    font-size: .8rem;
+    
+
+  }
   border: 1px solid rgb(255, 255, 255);
   padding: 0.7rem 1.2rem;
   display: inline-block;
@@ -26,6 +31,7 @@ p {
 
 .infos__section-subtitle p {
   font-weight: 200;
+  color: rgb(146, 146, 146);
   margin-bottom: 2rem;
 }
 .container-fluid {
@@ -50,10 +56,16 @@ p {
 
 .extra__infos__left-section,
 .extra__infos__right-section {
+  @include media-breakpoint-down(sm){
+    margin-top: 5rem;
+  }
   margin-top: 10rem;
 }
 
 .extra__infos__right-section {
+  @include media-breakpoint-down(sm){
+    padding-left: 1rem;
+  }
   padding-left: calc(30% - 1rem);
 }
 .point_img {

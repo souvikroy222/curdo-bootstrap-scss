@@ -13,14 +13,10 @@
   @include media-breakpoint-down(sm) {
     font-size: 0.9rem;
   }
+  color: rgb(146, 146, 146);
   margin-bottom: 1.2rem;
 }
-li{
-  @include media-breakpoint-down(sm){
-    font-size: 0.9rem;
-  }
-  color: rgb(146, 146, 146);
-}
+
 
 .footer__icons {
   display: flex;
@@ -50,6 +46,10 @@ li{
 }
 
 .footer__extra-section {
+  @include media-breakpoint-down(sm){
+    font-size: 0.9rem;
+  }
+  color: rgb(146, 146, 146);
   padding: 3rem 0 1.5rem 0;
 }
 .footer__logo-img {
