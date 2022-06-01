@@ -4040,6 +4040,7 @@ textarea.form-control-lg {
   .navbar-expand-sm .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    justify-content: flex-end;
   }
   .navbar-expand-sm .navbar-toggler {
     display: none;
@@ -4093,6 +4094,7 @@ textarea.form-control-lg {
   .navbar-expand-md .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    justify-content: flex-end;
   }
   .navbar-expand-md .navbar-toggler {
     display: none;
@@ -4146,6 +4148,7 @@ textarea.form-control-lg {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    justify-content: flex-end;
   }
   .navbar-expand-lg .navbar-toggler {
     display: none;
@@ -4199,6 +4202,7 @@ textarea.form-control-lg {
   .navbar-expand-xl .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    justify-content: flex-end;
   }
   .navbar-expand-xl .navbar-toggler {
     display: none;
@@ -4252,6 +4256,7 @@ textarea.form-control-lg {
   .navbar-expand-xxl .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    justify-content: flex-end;
   }
   .navbar-expand-xxl .navbar-toggler {
     display: none;
@@ -4304,6 +4309,7 @@ textarea.form-control-lg {
 .navbar-expand .navbar-collapse {
   display: flex !important;
   flex-basis: auto;
+  justify-content: flex-end;
 }
 .navbar-expand .navbar-toggler {
   display: none;
@@ -4337,7 +4343,7 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: white;
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
@@ -4356,8 +4362,7 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.55);
-  border-color: rgba(0, 0, 0, 0.1);
+  color: white;
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -4392,7 +4397,6 @@ textarea.form-control-lg {
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
-  border-color: rgba(255, 255, 255, 0.1);
 }
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -4587,7 +4591,6 @@ textarea.form-control-lg {
   background-color: white;
 }
 .accordion-button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   transform: rotate(-180deg);
 }
 .accordion-button::after {
@@ -4596,7 +4599,6 @@ textarea.form-control-lg {
   height: 1.25rem;
   margin-left: auto;
   content: "";
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-size: 1.25rem;
   transition: transform 0.2s ease-in-out;
@@ -11124,7 +11126,7 @@ textarea.form-control-lg {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 9999;
   background-color: white;
   box-shadow: 0 8px 24px hsla(227deg, 39%, 21%, 0.15);
   transition: 0.3s;
@@ -11134,15 +11136,16 @@ textarea.form-control-lg {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 3rem;
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 1138px) {
   .nav_button-link {
     display: none;
   }
 }
 
 .logo_img {
-  width: 50%;
+  width: 175px;
 }
 
 .nav-item {
@@ -11406,6 +11409,7 @@ p {
 .featured__text,
 .featured__subtext {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .featured__section-left {
@@ -11517,9 +11521,12 @@ p {
   color: rgb(146, 146, 146);
 }
 
+.person_name {
+  color: rgb(146, 146, 146);
+}
+
 .testimonal__card {
-  display: inline-block;
-  width: 400px;
+  position: relative;
   height: 300px;
   background: rgb(255, 255, 255);
   padding: 2rem 1.5rem 1.5rem;

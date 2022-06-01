@@ -14,9 +14,13 @@
   color: rgb(146, 146, 146);
 }
 
+
+.person_name{
+  color: rgb(146, 146, 146);
+}
+
 .testimonal__card {
-  display: inline-block;
-  width: 400px;
+  position: relative;  
   height: 300px;
   background: rgb(255, 255, 255);
   padding: 2rem 1.5rem 1.5rem;
