@@ -1,3 +1,15 @@
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: white;  
+  box-shadow: 0 8px 24px hsla(227, 39%, 21%, 0.15);
+  transition: 0.3s;
+}
+
+
 .nav_button-link {
   @include media-breakpoint-down(xl) {
     display: none;

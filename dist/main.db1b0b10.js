@@ -146,6 +146,62 @@ var swiper = new Swiper(".mySwiper", {
     }
   }
 });
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+
+var scrollReveal = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: 2500,
+  delay: 400
+});
+scrollReveal.reveal(".main__second-section", {
+  delay: 300,
+  origin: 'top'
+});
+scrollReveal.reveal(".main__first-section", {
+  delay: 500,
+  origin: 'bottom'
+});
+scrollReveal.reveal(".infos__left-section", {
+  delay: 300,
+  origin: 'bottom'
+});
+scrollReveal.reveal(".infos__right-section", {
+  delay: 300,
+  origin: 'bottom'
+});
+scrollReveal.reveal(".extra__infos__left-section", {
+  delay: 300,
+  origin: 'top'
+});
+scrollReveal.reveal(".features__section", {
+  delay: 300,
+  origin: 'bottom'
+});
+scrollReveal.reveal(".featured__section-title", {
+  delay: 300,
+  origin: 'top'
+});
+scrollReveal.reveal(".featured__section-subtitle", {
+  delay: 400,
+  origin: 'top'
+});
+scrollReveal.reveal(".featured__section-left", {
+  delay: 300,
+  origin: 'top'
+});
+scrollReveal.reveal(".featured__section-right", {
+  delay: 500,
+  origin: 'bottom'
+});
+scrollReveal.reveal(".subscribe_container", {
+  delay: 300,
+  origin: 'top'
+});
+scrollReveal.reveal(".footer_section", {
+  delay: 300,
+  origin: 'top'
+});
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -174,7 +230,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52551" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62719" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

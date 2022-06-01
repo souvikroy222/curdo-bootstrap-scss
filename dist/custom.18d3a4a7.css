@@ -5,7 +5,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11119,6 +11119,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+  box-shadow: 0 8px 24px hsla(227deg, 39%, 21%, 0.15);
+  transition: 0.3s;
+}
+
 .nav_button-link {
   display: flex;
   justify-content: space-between;
@@ -11191,6 +11202,7 @@ a:hover {
 }
 
 .cashback__text-para {
+  font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
@@ -11252,7 +11264,7 @@ a:hover {
 }
 @media (min-width: 401px) and (max-width: 500px) {
   .infos__background-section {
-    height: 2700px;
+    height: 2800px;
   }
 }
 @media (min-width: 501px) and (max-width: 600px) {
@@ -11364,10 +11376,13 @@ p {
 }
 
 .first__card {
+  padding: 1rem 2rem;
   margin-top: 6rem;
 }
 
 .point__headline-title {
+  font-size: 1.4rem;
+  font-weight: 400;
   margin-top: 2rem;
 }
 
@@ -11486,7 +11501,7 @@ p {
 
 .testimonials_section {
   background-color: rgb(0, 0, 0);
-  padding-bottom: 5rem;
+  padding-bottom: 8rem;
 }
 
 .testimonials__text-section {
@@ -11551,6 +11566,7 @@ p {
 }
 
 .subscribe_inputbox {
+  border: 1px solid black;
   width: 100%;
   padding-left: 2rem;
 }
@@ -11598,6 +11614,11 @@ p {
   .footer__links-li {
     font-size: 0.9rem;
   }
+}
+
+.thin__border {
+  margin-top: 3rem;
+  border: 0.03rem solid rgb(212, 212, 212);
 }
 
 .footer__icons {
@@ -11657,7 +11678,7 @@ p {
 }
 
 * {
-  font-family: "Rubik", sans-serif;
+  font-family: "DM Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
