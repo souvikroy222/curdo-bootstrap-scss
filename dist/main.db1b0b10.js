@@ -130,7 +130,15 @@ var swiper = new Swiper(".mySwiper", {
   },
   breakpoints: {
     768: {
-      slidesPerView: 1
+      slidesPerView: 2
+    },
+    670: {
+      slidesPerView: 2,
+      spaceBetween: 48
+    },
+    900: {
+      slidesPerView: 2,
+      spaceBetween: 48
     },
     1024: {
       slidesPerView: 3,
@@ -166,7 +174,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62281" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52551" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

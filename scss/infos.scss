@@ -1,11 +1,26 @@
 .infos__background-section {
-  @include media-breakpoint-down(lg) {
-    height: 2050px;
+  @media (min-width: 270px) and (max-width: 300px) {
+    height: 2900px;
   }
-  @include media-breakpoint-down(md) {
-    height: 3100px;
+  @media (min-width: 301px) and (max-width: 400px) {
+    height: 3000px;
   }
-  height: 1350px;
+  @media (min-width: 401px) and (max-width: 500px) {
+    height: 2700px;
+  }
+  @media (min-width: 501px) and (max-width: 600px) {
+    height: 2700px;
+  }
+  @media (min-width: 601px) and (max-width: 700px) {
+    height: 2900px;
+  }
+  @media (min-width: 701px) and (max-width: 750px) {
+    height: 2700px;
+  }
+  @media (min-width: 801px) and (max-width: 999px) {
+    height: 2058px;
+  }
+  height: 1400px;
   background-image: url("../src/images/a2a2d7d120f58231afe456a6c690d573_02.png");
   background-size: cover;
   background-position: center;
@@ -14,11 +29,27 @@
   padding-left: 0.75rem;
 }
 
-.get_to-know-btn {
-  @include media-breakpoint-down(sm){
-    font-size: .8rem;
-    
+.point__icon {
+  display: grid;
+  place-items: center;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background: rgb(62, 62, 62);
+  background: linear-gradient(
+    143deg,
+    rgba(62, 62, 62, 1) 11%,
+    rgb(35, 35, 35) 75%
+  );
+}
 
+.point__icon i {
+  font-size: 3rem;
+}
+
+.get_to-know-btn {
+  @include media-breakpoint-down(sm) {
+    font-size: 0.8rem;
   }
   border: 1px solid rgb(255, 255, 255);
   padding: 0.7rem 1.2rem;
@@ -56,14 +87,14 @@ p {
 
 .extra__infos__left-section,
 .extra__infos__right-section {
-  @include media-breakpoint-down(sm){
+  @include media-breakpoint-down(sm) {
     margin-top: 5rem;
   }
   margin-top: 10rem;
 }
 
 .extra__infos__right-section {
-  @include media-breakpoint-down(sm){
+  @include media-breakpoint-down(sm) {
     padding-left: 1rem;
   }
   padding-left: calc(30% - 1rem);
@@ -97,5 +128,3 @@ p {
   font-size: 2.8rem;
   font-weight: 400;
 }
-
-

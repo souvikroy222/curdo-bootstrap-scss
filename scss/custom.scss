@@ -16,7 +16,6 @@
 }
 
 .buttons {
- 
   padding: 0.7rem 1.2rem;
   background-color: black;
   color: #fff;
@@ -24,16 +23,21 @@
 }
 
 .section {
-  @include media-breakpoint-down(sm){
+  @include media-breakpoint-down(sm) {
     padding-top: 5rem;
-}
-  
+  }
+
   padding-top: 7rem;
 }
 
 .container {
+  @media screen and (max-width:1330px) {
+    width: 1200px;
+    
+  }
   margin: auto;
   max-width: 85%;
+  
 }
 
 ul {
