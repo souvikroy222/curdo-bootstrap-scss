@@ -11715,7 +11715,7 @@ p {
 }
 @media screen and (max-width: 1330px) {
   .container {
-    width: 1200px;
+    max-width: 1200px;
   }
 }
 
