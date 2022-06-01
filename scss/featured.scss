@@ -10,6 +10,10 @@
 }
 
 .featured__img {
+  @media screen and (max-width:532px) {
+    margin-top:3rem
+    
+  }
   width: 100%;
   margin-left: -18%;
 }
