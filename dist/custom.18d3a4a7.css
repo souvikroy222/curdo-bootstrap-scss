@@ -11269,7 +11269,7 @@ a:hover {
 }
 @media (min-width: 501px) and (max-width: 600px) {
   .infos__background-section {
-    height: 2700px;
+    height: 2900px;
   }
 }
 @media (min-width: 601px) and (max-width: 700px) {
@@ -11280,6 +11280,16 @@ a:hover {
 @media (min-width: 701px) and (max-width: 750px) {
   .infos__background-section {
     height: 2700px;
+  }
+}
+@media (min-width: 751px) and (max-width: 768px) {
+  .infos__background-section {
+    height: 2700px;
+  }
+}
+@media (min-width: 769px) and (max-width: 800px) {
+  .infos__background-section {
+    height: 2200px;
   }
 }
 @media (min-width: 801px) and (max-width: 999px) {
